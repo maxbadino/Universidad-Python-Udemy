@@ -16,17 +16,14 @@ class Rectangulo(FiguraGeometrica, Color):
         return self.__ancho * self.__alto """
 
 from figura_geometrica import FiguraGeometrica
-from color import Color
+# from color import Color
 
-class Rectangulo(FiguraGeometrica, Color):
+class Rectangulo(FiguraGeometrica):
     def __init__(self, ancho, alto, color):
         FiguraGeometrica.__init__(self, ancho, alto)
         #hace referencia a FiguraGeometrica por la prioridad
         #super().__init__(lado, lado) 
-        Color.__init__(self, color)
-    
-    def area(self):
-        return self.__alto * self.__ancho
+        self.color = color
 
 
 

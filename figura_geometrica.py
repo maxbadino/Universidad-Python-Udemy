@@ -2,6 +2,9 @@ class FiguraGeometrica:
     def __init__(self, ancho, alto):
         self.__ancho = ancho
         self.__alto = alto
+
+    def area(self):
+        return self.__alto * self.__ancho
         
     #def get_ancho(self):
     #    return self.__ancho 
