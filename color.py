@@ -6,8 +6,7 @@ class Color:
     #    return self.__color
     
     #def set_color(self, color):
-    #    self.__color = color        
-
+    #    self.__color = color
     
     #def __str__(self):
     #    return "el color es: " + self.__color
